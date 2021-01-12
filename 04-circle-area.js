@@ -2,14 +2,14 @@
 
 function circleArea (input){
     let result;
-let inputType = typeof(input)
+let inputType = typeof(input);
 if(inputType === 'number'){
-result = Math.pow(input,2) * Math.PI
+result = Math.pow(input,2) * Math.PI;
 console.log(result.toFixed(2));
 } else {
     console.log(`We can not calculate the circle area, because we receive a ${inputType}.`);
 }
 }
 
-circleArea(5)
-circleArea('name')
+circleArea(5);
+circleArea('name');
