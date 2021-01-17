@@ -1,4 +1,4 @@
-//06. Sum of Numbers N…M 06-sum-of-numbers.js
+//06. Sum of Numbers N…M 
 
 function sumOfNumbers(n,m) {
 n = Number(n);
