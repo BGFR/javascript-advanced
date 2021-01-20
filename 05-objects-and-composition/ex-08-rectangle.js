@@ -1,7 +1,7 @@
 //08. Rectangle  
 function rectangle(width,height,color) {
 function capitalize(word){
-    return word[0].toUpperCase()+word.slice(1)
+    return word[0].toUpperCase()+word.slice(1);
 }
 
 function calcArea(width,height){
