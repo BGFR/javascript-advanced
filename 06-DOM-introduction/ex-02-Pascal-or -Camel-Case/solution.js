@@ -10,7 +10,7 @@ function solve() {
         result[i + 1] = result[i + 1].toUpperCase();
       }
     }
-    result = result.join('').split(' ').join('')
+    result = result.join('').split(' ').join('');
   } else if (current == 'Pascal Case') {
     result[0] = result[0].toUpperCase();
     for (let i = 1; i < input.length; i++) {
@@ -27,5 +27,3 @@ function solve() {
   document.getElementById('result').textContent = result;
 
 }
-
-solve()
