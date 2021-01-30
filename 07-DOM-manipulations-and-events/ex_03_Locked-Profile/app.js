@@ -4,22 +4,22 @@ function lockedProfile() {
 
     function onClick(ev) {
         if (ev.target.nodeName == 'BUTTON') {
-            const parent = ev.target.parentNode
-            const lock = parent.querySelector('input[type="radio"][value="lock"]')
+            const parent = ev.target.parentNode;
+            const lock = parent.querySelector('input[type="radio"][value="lock"]');
             if (lock.checked) {
-                return
+                return;
             }
-            const hidden = parent.querySelector('div')
+            const hidden = parent.querySelector('div');
 
             if (ev.target.innerText === 'Hide it') {
-                ev.target.innerText = 'Show More'
-                hidden.style.display = 'none'
+                ev.target.innerText = 'Show More';
+                hidden.style.display = 'none';
             } else {
-                ev.target.innerText = 'Hide it'
-                hidden.style.display = 'block'
-            }
-        }
+                ev.target.innerText = 'Hide it';
+                hidden.style.display = 'block';
+            };
+        };
 
-    }
+    };
 
-}
+};
