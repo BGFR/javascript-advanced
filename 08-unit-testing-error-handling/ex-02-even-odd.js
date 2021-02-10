@@ -10,7 +10,7 @@ function isOddOrEven(string) {
 
     return "odd";
 }
-console.log(isOddOrEven(''));
+const { expect, assert } = require('chai');
 
 describe ('Sum numbers', () =>{
     it('not a string', () => {
