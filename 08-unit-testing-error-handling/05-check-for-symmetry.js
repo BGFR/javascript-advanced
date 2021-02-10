@@ -1,5 +1,13 @@
 //5.	Check for Symmetry
 const { expect, assert } = require('chai');
+function isSymmetric(arr) {
+    if (!Array.isArray(arr))
+        return false; // Non-arrays are non-symmetric
+    let reversed = arr.slice(0).reverse(); // Clone and reverse
+    let equal = (JSON.stringify(arr) == JSON.stringify(reversed));
+    return equal;
+}
+
 describe('check symmetry', () => {
     describe('check input', () => {
         it('input 1', () => {
